@@ -4,3 +4,6 @@ function aplicarColor(e){
     let color = colores[Math.floor(Math.random() * 3)];
     e.target.style.color = color;
 }
+
+let elemento = document.querySelector("h5");
+elemento.onclick = aplicarColor;
